@@ -49,12 +49,14 @@ table {
 /*end of default resets*/
 /*beginning of CSS*/
 #container {
-  width: 100%;
+  width: 90%;
+  margin: auto;
   font-family: Helvetica;
 }
 .columns {
   width: 30.3%;
   margin-left: 1em;
+  padding-top: 5em;
   float: left;
 }
 .columns img {
