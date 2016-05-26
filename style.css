@@ -53,6 +53,25 @@ table {
   margin: auto;
   font-family: Helvetica;
 }
+h1 {
+	width: 87%;
+	font-weight: bold;
+	padding: .7em 0 .7em .7em;
+	color: rgba(64, 64, 64, 1);
+	background-color: rgba(242, 242, 242, 1);
+	float: left;
+}
+.h1-gator {
+	width: 6.11%;
+	text-align: center;
+	font-size: 1em;
+	padding: .7em 0 .7em .7em;
+	font-weight: bold;
+	color: rgba(64, 64, 64, 1);
+	background-color: rgba(230, 230, 230, 1);
+	float: right;
+	border-right: 4px solid #FFF;
+}
 .columns {
   width: 30.3%;
   margin-left: 1em;
@@ -61,15 +80,19 @@ table {
 }
 .columns img {
   width: 99%;
+	height: 15em;
 }
 li {
   font-size: 1rem;
   font-weight: 300;
-  line-height: 1.5;
-  border-bottom: 1px solid gray;
+  line-height: 2;
+  border-bottom: 1px solid rgba(230, 230, 230, 1);
 }
 li span {
   font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.5;
+}
+.tech-img .ent-img .sports-img {
+	height: 10em;
 }
