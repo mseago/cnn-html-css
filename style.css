@@ -54,32 +54,35 @@ table {
   font-family: Helvetica;
 }
 h1 {
-	width: 87%;
 	font-weight: bold;
 	padding: .7em 0 .7em .7em;
 	color: rgba(64, 64, 64, 1);
 	background-color: rgba(242, 242, 242, 1);
-	float: left;
 }
-.h1-gator {
-	width: 6.11%;
+.gator {
+	width: 10px;
 	text-align: center;
 	font-size: 1em;
-	padding: .7em 0 .7em .7em;
+	padding: .7em .7em .7em .7em;
 	font-weight: bold;
 	color: rgba(64, 64, 64, 1);
 	background-color: rgba(230, 230, 230, 1);
-	float: right;
-	border-right: 4px solid #FFF;
+	right: 0;
+	top: 0;
+	position: absolute;
+}
+.h1-gator {
+	position: relative;
 }
 .columns {
   width: 30.3%;
   margin-left: 1em;
   padding-top: 5em;
   float: left;
+	overflow: hidden;
 }
 .columns img {
-  width: 99%;
+  width: 100%;
 	height: 15em;
 }
 li {
